@@ -26,3 +26,39 @@ fetch('http://localhost:3000/coins' )
 // Setting innerHTML as tab variable
 document.getElementById("coins").innerHTML = li;
  });
+
+function coin (){
+
+  const likeCounter=document.querySelector ('. likes')
+  likeCounter.innerText= `${json.likes} likes`
+
+  const likeButton =document.querySelector ('.like-button')
+  likeButton.addEventListener ('click' , function (event){
+    likeCounter.innerText =incrementLikes (json)
+  })
+}
+
+function incrementLikes (coin) {
+let likes =0
+fetch (`http://localhost:3000/coins ${coin.id}`)
+.then((response) => response.json ())
+.then((json) => {
+  likes=json.likes
+
+})
+let newLikes=likes +1
+
+fetch (`http://localhost:3000/coins/1`,{
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify( {
+      "likes": newLikes
+    })
+  })
+ 
+let likesText =`${newLikes} likes`
+return likesText
+}
+
