@@ -1,0 +1,352 @@
+{  "coins":[
+  {
+      "id": "01coin",
+      "symbol": "zoc",
+      "Name": "01coin"
+  },
+  {
+      "id": "0chain",
+      "symbol": "zcn",
+      "Name": "Zus"
+  },
+  {
+      "id": "0x",
+      "symbol": "zrx",
+      "Name": "0x"
+  },
+  {
+      "id": "0xcert",
+      "symbol": "zxc",
+      "Name": "0xcert"
+  },
+  {
+      "id": "0xdao",
+      "symbol": "oxd",
+      "Name": "0xDAO"
+  },
+  {
+      "id": "0xdao-v2",
+      "symbol": "oxd v2",
+      "Name": "0xDAO V2"
+  },
+  {
+      "id": "0xmonero",
+      "symbol": "0xmr",
+      "Name": "0xMonero"
+  },
+  {
+      "id": "0xpad",
+      "symbol": "0xpad",
+      "Name": "0xPAD"
+  },
+  {
+      "id": "0xtrade",
+      "symbol": "0xt",
+      "Name": "0xTrade"
+  },
+  {
+      "id": "0xwallet-token",
+      "symbol": "0xw",
+      "Name": "0xWallet Token"
+  },
+  {
+      "id": "100-days-ventures",
+      "symbol": "astro",
+      "Name": "100 Days Ventures"
+  },
+  {
+      "id": "10mb",
+      "symbol": "10mb",
+      "Name": "10mb"
+  },
+  {
+      "id": "10share",
+      "symbol": "10share",
+      "Name": "10SHARE"
+  },
+  {
+      "id": "11957-olga",
+      "symbol": "realt-s-11957-olga-st-detroit-mi",
+      "Name": "RealT - 11957 Olga St, Detroit, MI 48213"
+  },
+  {
+      "id": "12405-santa-rosa",
+      "symbol": "realt-s-12405-santa-rosa-dr-detroit-mi",
+      "Name": "RealT - 12405 Santa Rosa Dr, Detroit, MI 48204"
+  },
+  {
+      "id": "12ships",
+      "symbol": "tshp",
+      "Name": "12Ships"
+    }
+  ],
+"exchanges":[
+  
+    {
+        "id": "binance",
+        "Name": "Binance",
+        "year_established": 2017,
+        "country": "Cayman Islands",
+        "description": "",
+        "url": "https://www.binance.com/",
+        "image": "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 1,
+        "trade_volume_24h_btc": 740714.7109750732,
+        "trade_volume_24h_btc_normalized": 403010.20591708075
+    },
+    {
+        "id": "gdax",
+        "Name": "Coinbase Exchange",
+        "year_established": 2012,
+        "country": "United States",
+        "description": "",
+        "url": "https://www.coinbase.com",
+        "image": "https://assets.coingecko.com/markets/images/23/small/Coinbase_Coin_Primary.png?1621471875",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 2,
+        "trade_volume_24h_btc": 134308.97530741093,
+        "trade_volume_24h_btc_normalized": 134308.97530741093
+    },
+    {
+        "id": "okex",
+        "Name": "OKX",
+        "year_established": 2013,
+        "country": "Seychelles",
+        "description": "",
+        "url": "https://www.okx.com",
+        "image": "https://assets.coingecko.com/markets/images/96/small/WeChat_Image_20220117220452.png?1642428377",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 3,
+        "trade_volume_24h_btc": 65144.78762238307,
+        "trade_volume_24h_btc_normalized": 35140.86898577967
+    },
+    {
+        "id": "huobi",
+        "Name": "Huobi",
+        "year_established": 2013,
+        "country": "Seychelles",
+        "description": "",
+        "url": "https://www.huobi.com",
+        "image": "https://assets.coingecko.com/markets/images/25/small/logo_V_colour_black.png?1669177364",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 4,
+        "trade_volume_24h_btc": 30873.18075774039,
+        "trade_volume_24h_btc_normalized": 30873.18075774039
+    },
+    {
+        "id": "bybit_spot",
+        "Name": "Bybit",
+        "year_established": 2018,
+        "country": null,
+        "description": "Bybit is a cryptocurrency exchange that offers a professional platform featuring an ultra-fast matching engine, excellent customer service and multilingual community support for crypto traders of all levels. Established in March 2018, Bybit currently serves more than 10 million users and institutions offering access to over 100 assets and contracts across Spot, Futures and Options, launchpad projects, earn products, an NFT Marketplace and more. Bybit is a proud partner of Formula One racing team, Oracle Red Bull Racing, esports teams NAVI, Astralis, Alliance, Virtus.pro, Made in Brazil (MIBR), City Esports, and Oracle Red Bull Racing Esports, and association football (soccer) teams Borussia Dortmund and Avispa Fukuoka.",
+        "url": "https://www.bybit.com",
+        "image": "https://assets.coingecko.com/markets/images/698/small/bybit_spot.png?1629971794",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 5,
+        "trade_volume_24h_btc": 30386.674469074587,
+        "trade_volume_24h_btc_normalized": 30386.674469074587
+    },
+    {
+        "id": "gate",
+        "Name": "Gate.io",
+        "year_established": null,
+        "country": "Hong Kong",
+        "description": "Gate was established in 2013, and it is the top 10 exchanges in the world in terms of authentic trading volume. It is also the first choice of over 8 million registered customers, covering 130+ countries worldwide, as we are providing the most comprehensive digital asset solutions.",
+        "url": "https://gate.io/",
+        "image": "https://assets.coingecko.com/markets/images/60/small/gate_io_logo1.jpg?1654596784",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 6,
+        "trade_volume_24h_btc": 27583.119492411908,
+        "trade_volume_24h_btc_normalized": 27583.119492411908
+    },
+    {
+        "id": "kraken",
+        "Name": "Kraken",
+        "year_established": 2011,
+        "country": "United States",
+        "description": "",
+        "url": "https://r.kraken.com/c/2223866/687155/10583",
+        "image": "https://assets.coingecko.com/markets/images/29/small/kraken.jpg?1584251255",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 7,
+        "trade_volume_24h_btc": 32739.133469648274,
+        "trade_volume_24h_btc_normalized": 26205.989494891175
+    },
+    {
+        "id": "kucoin",
+        "Name": "KuCoin",
+        "year_established": 2014,
+        "country": "Seychelles",
+        "description": "",
+        "url": "https://www.kucoin.com/",
+        "image": "https://assets.coingecko.com/markets/images/61/small/kucoin.png?1640584259",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 8,
+        "trade_volume_24h_btc": 25537.466145205344,
+        "trade_volume_24h_btc_normalized": 25537.466145205344
+    },
+    {
+        "id": "crypto_com",
+        "Name": "Crypto.com Exchange",
+        "year_established": 2019,
+        "country": "Cayman Islands",
+        "description": "Crypto.com Exchange is the best place to trade crypto, with deep liquidity, low fees and best execution prices, users can trade major cryptocurrencies like Bitcoin, Ethereum, and many more and receive great CRO-powered rewards",
+        "url": "https://crypto.com/exchange",
+        "image": "https://assets.coingecko.com/markets/images/589/small/h2oMjPp6_400x400.jpg?1669699705",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 9,
+        "trade_volume_24h_btc": 15865.792121148463,
+        "trade_volume_24h_btc_normalized": 15865.792121148463
+    },
+    {
+        "id": "gemini",
+        "Name": "Gemini",
+        "year_established": 2014,
+        "country": "United States",
+        "description": "",
+        "url": "https://gemini.sjv.io/bZ49k",
+        "image": "https://assets.coingecko.com/markets/images/50/small/gemini.png?1605704107",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 10,
+        "trade_volume_24h_btc": 1974.6853265575883,
+        "trade_volume_24h_btc_normalized": 1974.6853265575883
+    },
+    {
+        "id": "mxc",
+        "Name": "MEXC Global",
+        "year_established": 2018,
+        "country": null,
+        "description": "Established in April 2018, MEXC Global is one of the world’s leading digital-asset trading platforms. The core team comes from world-class enterprises and financial companies with rich experience in blockchain and financial industries.",
+        "url": "https://www.mexc.com/",
+        "image": "https://assets.coingecko.com/markets/images/409/small/MEXC_GLOBAL_LOGO.png?1669730504",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 11,
+        "trade_volume_24h_btc": 61081.20008583143,
+        "trade_volume_24h_btc_normalized": 58447.50747106764
+    },
+    {
+        "id": "upbit",
+        "Name": "Upbit",
+        "year_established": 2017,
+        "country": "South Korea",
+        "description": null,
+        "url": "https://upbit.com",
+        "image": "https://assets.coingecko.com/markets/images/117/small/upbit.png?1520388800",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 12,
+        "trade_volume_24h_btc": 47532.05211362964,
+        "trade_volume_24h_btc_normalized": 34685.87293335385
+    },
+    {
+        "id": "bitget",
+        "Name": "Bitget",
+        "year_established": 2018,
+        "country": "Singapore",
+        "description": "",
+        "url": "https://www.bitget.com/",
+        "image": "https://assets.coingecko.com/markets/images/540/small/Bitget_new_logo_2.png?1630049618",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 13,
+        "trade_volume_24h_btc": 32481.548853447868,
+        "trade_volume_24h_btc_normalized": 32481.548853447868
+    },
+    {
+        "id": "binance_us",
+        "Name": "Binance US",
+        "year_established": 2019,
+        "country": "United States",
+        "description": "",
+        "url": "https://www.binance.us/",
+        "image": "https://assets.coingecko.com/markets/images/469/small/Binance.png?1568875842",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 14,
+        "trade_volume_24h_btc": 26430.92542231884,
+        "trade_volume_24h_btc_normalized": 12688.390517558928
+    },
+    {
+        "id": "bitfinex",
+        "Name": "Bitfinex",
+        "year_established": 2014,
+        "country": "British Virgin Islands",
+        "description": "",
+        "url": "https://www.bitfinex.com",
+        "image": "https://assets.coingecko.com/markets/images/4/small/BItfinex.png?1615895883",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 15,
+        "trade_volume_24h_btc": 8930.610187279166,
+        "trade_volume_24h_btc_normalized": 7091.262504845331
+    },
+    {
+        "id": "bitmax",
+        "Name": "AscendEX (BitMax)",
+        "year_established": 2018,
+        "country": "Singapore",
+        "description": "AscendEX (formerly BitMax) is a leading global digital asset financial platform founded by a group of Wall Street quantitative trading veterans in 2018, building on core value of “Efficiency, Resilience and Transparency.” \r\n \r\nDriven by its continuous innovative product development and early-mover advantage in strategic alignment with the leading projects from DeFi ecosystem, AscendEX offers trading services across over 200 trading pairs across cash, margin, and futures products, in particular margin trading of over 50 tokens in cross-asset collateral mode and futures trading in both cross-asset and isolated margin modes.",
+        "url": "https://ascendex.com/en/global-digital-asset-platform",
+        "image": "https://assets.coingecko.com/markets/images/277/small/%E5%8E%9F%E8%89%B2.png?1650557355",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 16,
+        "trade_volume_24h_btc": 5009.472682585686,
+        "trade_volume_24h_btc_normalized": 5009.472682585686
+    },
+    {
+        "id": "poloniex",
+        "Name": "Poloniex",
+        "year_established": 2014,
+        "country": "Seychelles",
+        "description": "Poloniex was founded in January 2014 as a global cryptocurrency exchange. It provides spot trading, futures trading, staking, and various services to users in nearly 100 countries and regions with various languages available.\r\n\r\nIn 2022, Poloniex launched a brand new trading system to provide global retail and professional users with higher speed, as well as better stability and usability.",
+        "url": "https://poloniex.com/",
+        "image": "https://assets.coingecko.com/markets/images/37/small/poloniex.png?1663310089",
+        "has_trading_incentive": false,
+        "trust_score": 9,
+        "trust_score_rank": 17,
+        "trade_volume_24h_btc": 2688.354084347433,
+        "trade_volume_24h_btc_normalized": 2688.354084347433
+    },
+    {
+        "id": "lbank",
+        "Name": "LBank",
+        "year_established": 2017,
+        "country": "British Virgin Islands",
+        "description": "LBank Exchange, founded in 2015, is a global trading platform for various crypto assets. LBank Exchange provides its users with crypto trading, specialized financial derivatives, and professional asset management services. It has become one of the most popular and trusted crypto trading platforms with over 7 million users from now more than 210 regions around the world.",
+        "url": "https://www.lbank.info/",
+        "image": "https://assets.coingecko.com/markets/images/118/small/LBank_logo.png?1666234663",
+        "has_trading_incentive": false,
+        "trust_score": 8,
+        "trust_score_rank": 18,
+        "trade_volume_24h_btc": 63617.811875976855,
+        "trade_volume_24h_btc_normalized": 57530.47263263382
+    },
+    {
+        "id": "whitebit",
+        "Name": "WhiteBIT",
+        "year_established": 2018,
+        "country": "Lithuania",
+        "description": "",
+        "url": "https://whitebit.com",
+        "image": "https://assets.coingecko.com/markets/images/418/small/whitebit_final.png?1667923522",
+        "has_trading_incentive": false,
+        "trust_score": 8,
+        "trust_score_rank": 19,
+        "trade_volume_24h_btc": 53511.94045104122,
+        "trade_volume_24h_btc_normalized": 53511.94045104122
+    }
+]
+}
