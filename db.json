@@ -1,87 +1,117 @@
-{  "coins":[
-  {
-      "id": "01coin",
-      "symbol": "zoc",
-      "Name": "01coin"
-  },
-  {
-      "id": "0chain",
-      "symbol": "zcn",
-      "Name": "Zus"
-  },
-  {
-      "id": "0x",
-      "symbol": "zrx",
-      "Name": "0x"
-  },
-  {
-      "id": "0xcert",
-      "symbol": "zxc",
-      "Name": "0xcert"
-  },
-  {
-      "id": "0xdao",
-      "symbol": "oxd",
-      "Name": "0xDAO"
-  },
-  {
-      "id": "0xdao-v2",
-      "symbol": "oxd v2",
-      "Name": "0xDAO V2"
-  },
-  {
-      "id": "0xmonero",
-      "symbol": "0xmr",
-      "Name": "0xMonero"
-  },
-  {
-      "id": "0xpad",
-      "symbol": "0xpad",
-      "Name": "0xPAD"
-  },
-  {
-      "id": "0xtrade",
-      "symbol": "0xt",
-      "Name": "0xTrade"
-  },
-  {
-      "id": "0xwallet-token",
-      "symbol": "0xw",
-      "Name": "0xWallet Token"
-  },
-  {
-      "id": "100-days-ventures",
-      "symbol": "astro",
-      "Name": "100 Days Ventures"
-  },
-  {
-      "id": "10mb",
-      "symbol": "10mb",
-      "Name": "10mb"
-  },
-  {
-      "id": "10share",
-      "symbol": "10share",
-      "Name": "10SHARE"
-  },
-  {
-      "id": "11957-olga",
-      "symbol": "realt-s-11957-olga-st-detroit-mi",
-      "Name": "RealT - 11957 Olga St, Detroit, MI 48213"
-  },
-  {
-      "id": "12405-santa-rosa",
-      "symbol": "realt-s-12405-santa-rosa-dr-detroit-mi",
-      "Name": "RealT - 12405 Santa Rosa Dr, Detroit, MI 48204"
-  },
-  {
-      "id": "12ships",
-      "symbol": "tshp",
-      "Name": "12Ships"
-    }
-  ],
+{ 
 "exchanges":[
-  
+    {
+        "id": "velodrome",
+        "Name": "Velodrome Finance",
+        "year_established": 2022,
+        "country": null,
+        "description": "Velodrome Finance, at its core, is a solution for protocols on Optimism to properly incentivize liquidity for their own use cases. Building on top of the groundwork laid out by Solidly, our team has addressed that first iteration's core issues to realize its full potential.\r\n\r\nThe team behind Velodrome Finance previously launched veDAO, an initiative incubated by Information Token. veDAO's founding mandate was to engage with the Solidly ecosystem, a protocol launched on the Fantom network by Andre Cronje, while driving long-term value to the veDAO community.\r\n\r\nThe veDAO team has since developed deep subject matter expertise on both Solidly, the veNFT primitive, and the ve(3,3) mechanism, becoming the go-to resource for protocols and chains seeking support around these topics.",
+        "url": "https://app.velodrome.finance/swap",
+        "image": "https://assets.coingecko.com/markets/images/933/small/velodrome-finance.png?1660261754",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 93,
+        "trade_volume_24h_btc": 356.8252901044564,
+        "trade_volume_24h_btc_normalized": 356.8252901044564
+    },
+    {
+        "id": "exmarkets",
+        "Name": "ExMarkets",
+        "year_established": 2018,
+        "country": "British Virgin Islands",
+        "description": "",
+        "url": "https://exmarkets.com",
+        "image": "https://assets.coingecko.com/markets/images/363/small/42200149_2115011248752220_3911078373144657920_n.jpg?1551247813",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 94,
+        "trade_volume_24h_btc": 2197.9619966238442,
+        "trade_volume_24h_btc_normalized": 334.499658773421
+    },
+    {
+        "id": "quickswap",
+        "Name": "Quickswap",
+        "year_established": 2020,
+        "country": null,
+        "description": "Next-gen Layer 2 DEX. Trade at lightning-fast speeds with near-zero gas fees. \r\n",
+        "url": "https://quickswap.exchange/#/swap",
+        "image": "https://assets.coingecko.com/markets/images/629/small/1_pOU6pBMEmiL-ZJVb0CYRjQ_%281%29.png?1614077691",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 95,
+        "trade_volume_24h_btc": 325.73500169264724,
+        "trade_volume_24h_btc_normalized": 325.73500169264724
+    },
+    {
+        "id": "kickex",
+        "Name": "KickEX",
+        "year_established": 2020,
+        "country": "Estonia",
+        "description": "KickEX is the exchange with the lowest trading fees on the market. It's the fastest-growing exchange with amazing iOS and Android apps available in stores. Buy crypto within a minute, trade without risk! Our Support Team will answer all your questions instantly, in 7 different languages. Simple and user-friendly interface and high-quality KickEX mobile apps make our customers’ trading more comfortable, without bothering themselves with a long search for information.",
+        "url": "https://kickex.com/en",
+        "image": "https://assets.coingecko.com/markets/images/635/small/KickEX_logo.png?1652324492",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 96,
+        "trade_volume_24h_btc": 1735.0126570199066,
+        "trade_volume_24h_btc_normalized": 322.5576754703746
+    },
+    {
+        "id": "cryptology",
+        "Name": "Cryptology",
+        "year_established": 2018,
+        "country": "Estonia",
+        "description": "",
+        "url": "https://cryptology.com/",
+        "image": "https://assets.coingecko.com/markets/images/287/small/logo-symbol.png?1669975181",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 97,
+        "trade_volume_24h_btc": 2009.6532860295717,
+        "trade_volume_24h_btc_normalized": 264.33547255812005
+    },
+    {
+        "id": "kyberswap_elastic_arbitrum",
+        "Name": "Kyberswap Elastic (Arbitrum)",
+        "year_established": null,
+        "country": null,
+        "description": "",
+        "url": "https://kyberswap.com/swap?networkId=42161",
+        "image": "https://assets.coingecko.com/markets/images/963/small/kyberswap.jpeg?1662695820",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 98,
+        "trade_volume_24h_btc": 231.50072447727334,
+        "trade_volume_24h_btc_normalized": 231.50072447727334
+    },
+    {
+        "id": "nomiswap_stable",
+        "Name": "Nomiswap (Stable)",
+        "year_established": null,
+        "country": null,
+        "description": "",
+        "url": "https://nomiswap.io/swap",
+        "image": "https://assets.coingecko.com/markets/images/997/small/nomiswap.jpeg?1667789286",
+        "has_trading_incentive": false,
+        "trust_score": 6,
+        "trust_score_rank": 99,
+        "trade_volume_24h_btc": 196.27496053212246,
+        "trade_volume_24h_btc_normalized": 196.27496053212246
+    },
+    {
+        "id": "bitci",
+        "Name": "Bitci",
+        "year_established": 2018,
+        "country": "Turkey",
+        "description": "",
+        "url": "https://www.bitci.com/",
+        "image": "https://assets.coingecko.com/markets/images/450/small/Bitci.jpg?1564137859",
+        "has_trading_incentive": false,
+        "trust_score": 5,
+        "trust_score_rank": 100,
+        "trade_volume_24h_btc": 190.76714295128028,
+        "trade_volume_24h_btc_normalized": 190.76714295128028
+    },
     {
         "id": "binance",
         "Name": "Binance",
@@ -348,5 +378,12 @@
         "trade_volume_24h_btc": 53511.94045104122,
         "trade_volume_24h_btc_normalized": 53511.94045104122
     }
+],
+"trending coins":[
+    {
+
+
+    }
 ]
+
 }

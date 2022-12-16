@@ -6,6 +6,13 @@ table {
  
 
 }
+/* .column {
+  float: left;
+  width: 50%;
+} */
+
+/* Clear floats after the columns */
+
 
 td,
 th {
@@ -23,3 +30,4 @@ th {
 .fa:hover {
   color: darkblue;
 }
+
