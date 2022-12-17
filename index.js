@@ -1,4 +1,4 @@
-// GET request using fetch()
+// document.addEventListener(domcon// GET request using fetch()
 fetch('http://localhost:3000/exchanges' )
 // Converting received data to JSON
  .then((response) => response.json ())
@@ -14,14 +14,14 @@ fetch('http://localhost:3000/exchanges' )
   <th>url</th>
   </tr>`; 
 
-  json.forEach((exchange) => {
+  json.forEach((coins) => {
     li+=`<tr>
-      <td> ${exchange.Name }</td>
-      <td><img src= "${exchange.image}"></td>
-      <td>${exchange.year_established}</td>
-    <td>${exchange.country}</td>
-      <td>${exchange.trust_score_rank}</td>
-      <td><a href="${exchange.url}" target="blank">${exchange.url}></a></td>
+      <td > ${coins.Name }</td>
+      <td><img src= "${coins.image}"></td>
+      <td>${coins.year_established}</td>
+    <td>${coins.country}</td>
+      <td>${coins.trust_score_rank}</td>
+      <td><a href="${coins.url}" target="self">${coins.url}</a></td>
     <td> <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
    </tr>`; 
   })
@@ -33,33 +33,44 @@ document.getElementById("exchanges").innerHTML = li;
   x.classList.toggle("fa-thumbs-down");
  
 }
+
 // fetch('http://localhost:3000/exchanges' )
 // // Converting received data to JSON
 //  .then((response) => response.json ())
-//  .then((json) => {
-// let trend = `<tr>
-// <th> COIN NAME  </th>
-// <th>SYMBOL</th>
-// <th>Year</th>
-// <th>Country</th>
-// <th>Coin Rank</th>
-// </tr>`; 
+//  .then((data) => {
 
-// json.forEach((exchange) => {
-//   trend+=`<tr>
-//     <td> ${exchange.Name }</td>
-//     <td><img src= "${exchange.image}"></td>
-//     <td>${exchange.year_established}</td>
-//   <td>${exchange.country}</td>
-//     <td>${exchange.trust_score_rank}</td>
-//   <td> <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
-//  </tr>`; 
-// })
+// // variable to store html headers
+//   let topCoin =`<tr>
+//   <th> COIN NAME  </th>
+//   <th>SYMBOL</th>
+//   <th>RANK</th>
+//   <th>url</th>
+// </tr>`
+
+//  if (`&{coin.trust_score}` ===1){
+
+//   data.forEach((coin) => {
+//     topCoin+=`<tr>
+//       <td > ${coin.Name }        <ul>
+//       <li class="like">Like! <span class="like-glyph">&#x2661;</span></li>
+//     </ul></td>
+//       <td><img src= "${coin.image}"></td>
+//       <td>${coin.trust_score_rank}</td>
+ 
+//     <td> <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+//    </tr>`; 
+//   })
 // // Setting innerHTML as tab variable
-// document.getElementById("exchanges").innerHTML =trend.slice(1,9);
-//  })
+// document.getElementById("trending").innerHTML =topCoin;
+// }
 
-// function exchange (){
+//  });
+
+//  function myFunction(x) {
+//   x.classList.toggle("fa-thumbs-down");
+//  }
+
+// function coins (){
 
 //   const likeCounter=document.querySelector ('. likes')
 //   likeCounter.innerText= `${json.likes} likes`
@@ -70,9 +81,9 @@ document.getElementById("exchanges").innerHTML = li;
 //   })
 // }
 
-// function incrementLikes (exchange) {
+// function incrementLikes (coins) {
 // let likes =0
-// fetch (`http://localhost:3000/exchanges ${exchange.id}`)
+// fetch (`http://localhost:3000/exchanges ${coins.id}`)
 // .then((response) => response.json ())
 // .then((json) => {
 //   likes=json.likes

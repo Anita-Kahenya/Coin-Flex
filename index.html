@@ -2,43 +2,51 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>exchangeGO</title>
+    <title>COIN-FLEX</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="icons" href="https://assets.coingecko.com/markets/images">
-     <link rel="stylesheet" href="./style.css">
-      <link rel="shortcut icon" href="image.jpg">
-  </head>
-  <body>
-    <div class="row">
-      <div class="column"></div>
-          <hr>
-      <!-- Table to display fetched user data -->
-      <table id="exchanges">
-        <!-- <tr>
-          <th> Name</th>
-       <th>Symbol</th>
-       <th>Coin Rank</th>
+    <link rel="stylesheet" href="./style.css">
+   <link rel="shortcut icon" href="image.jpg">
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <a  href="#exchanges">Exchanges </a>
+    <a  href="#trending">Trending</a>
+    <a  href="#clients">Clients</a>
+    </div>
+<p>A list of coins</p>
+ <!-- Table to display fetched user data -->
+   <div>
+    <table id="exchanges">
+     <!-- <tr>
+     <th> Name</th>
+      <th>Symbol</th>
+   <th>Coin Rank</th>
+
        </tr> -->
-       <!-- <div class="likes-section">
+    <!-- <div class="likes-section">
         <span class="likes"> 0 likes</span>
         <button class="like-button">♡</button>
           </div> -->
           <!-- Use an element to toggle between a like/dislike icon -->
-        
-       
-           </table>
-      <div class="column">
-        <table id="exchanges"></table>
-      </div>
-    </div>
-   
-
-
-
-  
+                  
+    </table></div>
+   <div class="column">
+    <!-- Displaying a list of trending coins -->
+    <table id="trending"> 
+      <!-- <tr>
+        <th> COIN NAME  </th>
+        <th>SYMBOL</th>
+        <th>RANK</th>
+        <th>Coin Rank</th>
+        <th>url</th>
+     </tr> -->
+    </table>
+   </div>   
   
     <script type="text/javascript" src="index.js"></script>
     

@@ -1,117 +1,6 @@
-{ 
-"exchanges":[
-    {
-        "id": "velodrome",
-        "Name": "Velodrome Finance",
-        "year_established": 2022,
-        "country": null,
-        "description": "Velodrome Finance, at its core, is a solution for protocols on Optimism to properly incentivize liquidity for their own use cases. Building on top of the groundwork laid out by Solidly, our team has addressed that first iteration's core issues to realize its full potential.\r\n\r\nThe team behind Velodrome Finance previously launched veDAO, an initiative incubated by Information Token. veDAO's founding mandate was to engage with the Solidly ecosystem, a protocol launched on the Fantom network by Andre Cronje, while driving long-term value to the veDAO community.\r\n\r\nThe veDAO team has since developed deep subject matter expertise on both Solidly, the veNFT primitive, and the ve(3,3) mechanism, becoming the go-to resource for protocols and chains seeking support around these topics.",
-        "url": "https://app.velodrome.finance/swap",
-        "image": "https://assets.coingecko.com/markets/images/933/small/velodrome-finance.png?1660261754",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 93,
-        "trade_volume_24h_btc": 356.8252901044564,
-        "trade_volume_24h_btc_normalized": 356.8252901044564
-    },
-    {
-        "id": "exmarkets",
-        "Name": "ExMarkets",
-        "year_established": 2018,
-        "country": "British Virgin Islands",
-        "description": "",
-        "url": "https://exmarkets.com",
-        "image": "https://assets.coingecko.com/markets/images/363/small/42200149_2115011248752220_3911078373144657920_n.jpg?1551247813",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 94,
-        "trade_volume_24h_btc": 2197.9619966238442,
-        "trade_volume_24h_btc_normalized": 334.499658773421
-    },
-    {
-        "id": "quickswap",
-        "Name": "Quickswap",
-        "year_established": 2020,
-        "country": null,
-        "description": "Next-gen Layer 2 DEX. Trade at lightning-fast speeds with near-zero gas fees. \r\n",
-        "url": "https://quickswap.exchange/#/swap",
-        "image": "https://assets.coingecko.com/markets/images/629/small/1_pOU6pBMEmiL-ZJVb0CYRjQ_%281%29.png?1614077691",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 95,
-        "trade_volume_24h_btc": 325.73500169264724,
-        "trade_volume_24h_btc_normalized": 325.73500169264724
-    },
-    {
-        "id": "kickex",
-        "Name": "KickEX",
-        "year_established": 2020,
-        "country": "Estonia",
-        "description": "KickEX is the exchange with the lowest trading fees on the market. It's the fastest-growing exchange with amazing iOS and Android apps available in stores. Buy crypto within a minute, trade without risk! Our Support Team will answer all your questions instantly, in 7 different languages. Simple and user-friendly interface and high-quality KickEX mobile apps make our customers’ trading more comfortable, without bothering themselves with a long search for information.",
-        "url": "https://kickex.com/en",
-        "image": "https://assets.coingecko.com/markets/images/635/small/KickEX_logo.png?1652324492",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 96,
-        "trade_volume_24h_btc": 1735.0126570199066,
-        "trade_volume_24h_btc_normalized": 322.5576754703746
-    },
-    {
-        "id": "cryptology",
-        "Name": "Cryptology",
-        "year_established": 2018,
-        "country": "Estonia",
-        "description": "",
-        "url": "https://cryptology.com/",
-        "image": "https://assets.coingecko.com/markets/images/287/small/logo-symbol.png?1669975181",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 97,
-        "trade_volume_24h_btc": 2009.6532860295717,
-        "trade_volume_24h_btc_normalized": 264.33547255812005
-    },
-    {
-        "id": "kyberswap_elastic_arbitrum",
-        "Name": "Kyberswap Elastic (Arbitrum)",
-        "year_established": null,
-        "country": null,
-        "description": "",
-        "url": "https://kyberswap.com/swap?networkId=42161",
-        "image": "https://assets.coingecko.com/markets/images/963/small/kyberswap.jpeg?1662695820",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 98,
-        "trade_volume_24h_btc": 231.50072447727334,
-        "trade_volume_24h_btc_normalized": 231.50072447727334
-    },
-    {
-        "id": "nomiswap_stable",
-        "Name": "Nomiswap (Stable)",
-        "year_established": null,
-        "country": null,
-        "description": "",
-        "url": "https://nomiswap.io/swap",
-        "image": "https://assets.coingecko.com/markets/images/997/small/nomiswap.jpeg?1667789286",
-        "has_trading_incentive": false,
-        "trust_score": 6,
-        "trust_score_rank": 99,
-        "trade_volume_24h_btc": 196.27496053212246,
-        "trade_volume_24h_btc_normalized": 196.27496053212246
-    },
-    {
-        "id": "bitci",
-        "Name": "Bitci",
-        "year_established": 2018,
-        "country": "Turkey",
-        "description": "",
-        "url": "https://www.bitci.com/",
-        "image": "https://assets.coingecko.com/markets/images/450/small/Bitci.jpg?1564137859",
-        "has_trading_incentive": false,
-        "trust_score": 5,
-        "trust_score_rank": 100,
-        "trade_volume_24h_btc": 190.76714295128028,
-        "trade_volume_24h_btc_normalized": 190.76714295128028
-    },
+
+{
+    "exchanges":[
     {
         "id": "binance",
         "Name": "Binance",
@@ -123,8 +12,8 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 1,
-        "trade_volume_24h_btc": 740714.7109750732,
-        "trade_volume_24h_btc_normalized": 403010.20591708075
+        "trade_volume_24h_btc": 659685.0992826157,
+        "trade_volume_24h_btc_normalized": 372192.1361530796
     },
     {
         "id": "gdax",
@@ -137,8 +26,8 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 2,
-        "trade_volume_24h_btc": 134308.97530741093,
-        "trade_volume_24h_btc_normalized": 134308.97530741093
+        "trade_volume_24h_btc": 102772.86659057674,
+        "trade_volume_24h_btc_normalized": 102772.86659057674
     },
     {
         "id": "okex",
@@ -151,22 +40,22 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 3,
-        "trade_volume_24h_btc": 65144.78762238307,
-        "trade_volume_24h_btc_normalized": 35140.86898577967
+        "trade_volume_24h_btc": 58288.169157133285,
+        "trade_volume_24h_btc_normalized": 32453.657257463787
     },
     {
-        "id": "huobi",
-        "Name": "Huobi",
-        "year_established": 2013,
-        "country": "Seychelles",
-        "description": "",
-        "url": "https://www.huobi.com",
-        "image": "https://assets.coingecko.com/markets/images/25/small/logo_V_colour_black.png?1669177364",
+        "id": "gate",
+        "Name": "Gate.io",
+        "year_established": null,
+        "country": "Hong Kong",
+        "description": "Gate was established in 2013, and it is the top 10 exchanges in the world in terms of authentic trading volume. It is also the first choice of over 8 million registered customers, covering 130+ countries worldwide, as we are providing the most comprehensive digital asset solutions.",
+        "url": "https://gate.io/",
+        "image": "https://assets.coingecko.com/markets/images/60/small/gate_io_logo1.jpg?1654596784",
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 4,
-        "trade_volume_24h_btc": 30873.18075774039,
-        "trade_volume_24h_btc_normalized": 30873.18075774039
+        "trade_volume_24h_btc": 27707.08807869746,
+        "trade_volume_24h_btc_normalized": 27707.08807869746
     },
     {
         "id": "bybit_spot",
@@ -179,22 +68,22 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 5,
-        "trade_volume_24h_btc": 30386.674469074587,
-        "trade_volume_24h_btc_normalized": 30386.674469074587
+        "trade_volume_24h_btc": 26458.715072359322,
+        "trade_volume_24h_btc_normalized": 26458.715072359322
     },
     {
-        "id": "gate",
-        "Name": "Gate.io",
-        "year_established": null,
-        "country": "Hong Kong",
-        "description": "Gate was established in 2013, and it is the top 10 exchanges in the world in terms of authentic trading volume. It is also the first choice of over 8 million registered customers, covering 130+ countries worldwide, as we are providing the most comprehensive digital asset solutions.",
-        "url": "https://gate.io/",
-        "image": "https://assets.coingecko.com/markets/images/60/small/gate_io_logo1.jpg?1654596784",
+        "id": "huobi",
+        "Name": "Huobi",
+        "year_established": 2013,
+        "country": "Seychelles",
+        "description": "",
+        "url": "https://www.huobi.com",
+        "image": "https://assets.coingecko.com/markets/images/25/small/logo_V_colour_black.png?1669177364",
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 6,
-        "trade_volume_24h_btc": 27583.119492411908,
-        "trade_volume_24h_btc_normalized": 27583.119492411908
+        "trade_volume_24h_btc": 24656.849190817185,
+        "trade_volume_24h_btc_normalized": 24656.849190817185
     },
     {
         "id": "kraken",
@@ -207,8 +96,8 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 7,
-        "trade_volume_24h_btc": 32739.133469648274,
-        "trade_volume_24h_btc_normalized": 26205.989494891175
+        "trade_volume_24h_btc": 37798.60569806986,
+        "trade_volume_24h_btc_normalized": 24202.025325670103
     },
     {
         "id": "kucoin",
@@ -221,8 +110,8 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 8,
-        "trade_volume_24h_btc": 25537.466145205344,
-        "trade_volume_24h_btc_normalized": 25537.466145205344
+        "trade_volume_24h_btc": 22273.36553287817,
+        "trade_volume_24h_btc_normalized": 22273.36553287817
     },
     {
         "id": "crypto_com",
@@ -235,8 +124,22 @@
         "has_trading_incentive": false,
         "trust_score": 10,
         "trust_score_rank": 9,
-        "trade_volume_24h_btc": 15865.792121148463,
-        "trade_volume_24h_btc_normalized": 15865.792121148463
+        "trade_volume_24h_btc": 12552.03008664723,
+        "trade_volume_24h_btc_normalized": 12552.03008664723
+    },
+    {
+        "id": "binance_us",
+        "Name": "Binance US",
+        "year_established": 2019,
+        "country": "United States",
+        "description": "",
+        "url": "https://www.binance.us/",
+        "image": "https://assets.coingecko.com/markets/images/469/small/Binance.png?1568875842",
+        "has_trading_incentive": false,
+        "trust_score": 10,
+        "trust_score_rank": 10,
+        "trade_volume_24h_btc": 18300.03457723703,
+        "trade_volume_24h_btc_normalized": 11718.113094253486
     },
     {
         "id": "gemini",
@@ -248,9 +151,9 @@
         "image": "https://assets.coingecko.com/markets/images/50/small/gemini.png?1605704107",
         "has_trading_incentive": false,
         "trust_score": 10,
-        "trust_score_rank": 10,
-        "trade_volume_24h_btc": 1974.6853265575883,
-        "trade_volume_24h_btc_normalized": 1974.6853265575883
+        "trust_score_rank": 11,
+        "trade_volume_24h_btc": 1202.5717527685479,
+        "trade_volume_24h_btc_normalized": 1202.5717527685479
     },
     {
         "id": "mxc",
@@ -262,9 +165,9 @@
         "image": "https://assets.coingecko.com/markets/images/409/small/MEXC_GLOBAL_LOGO.png?1669730504",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 11,
-        "trade_volume_24h_btc": 61081.20008583143,
-        "trade_volume_24h_btc_normalized": 58447.50747106764
+        "trust_score_rank": 12,
+        "trade_volume_24h_btc": 52198.49356600428,
+        "trade_volume_24h_btc_normalized": 52198.49356600428
     },
     {
         "id": "upbit",
@@ -276,9 +179,9 @@
         "image": "https://assets.coingecko.com/markets/images/117/small/upbit.png?1520388800",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 12,
-        "trade_volume_24h_btc": 47532.05211362964,
-        "trade_volume_24h_btc_normalized": 34685.87293335385
+        "trust_score_rank": 13,
+        "trade_volume_24h_btc": 43618.7289286172,
+        "trade_volume_24h_btc_normalized": 32033.454616917188
     },
     {
         "id": "bitget",
@@ -290,23 +193,23 @@
         "image": "https://assets.coingecko.com/markets/images/540/small/Bitget_new_logo_2.png?1630049618",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 13,
-        "trade_volume_24h_btc": 32481.548853447868,
-        "trade_volume_24h_btc_normalized": 32481.548853447868
+        "trust_score_rank": 14,
+        "trade_volume_24h_btc": 31753.589392091777,
+        "trade_volume_24h_btc_normalized": 31753.589392091777
     },
     {
-        "id": "binance_us",
-        "Name": "Binance US",
-        "year_established": 2019,
-        "country": "United States",
-        "description": "",
-        "url": "https://www.binance.us/",
-        "image": "https://assets.coingecko.com/markets/images/469/small/Binance.png?1568875842",
+        "id": "xt",
+        "Name": "XT.COM",
+        "year_established": 2018,
+        "country": "Seychelles",
+        "description": "By consistently expanding its ecosystem, XT.COM is dedicated to providing users with the most secure, trusted, and hassle-free digital asset trading services. Our exchange is built from a desire to give everyone access to digital assets regardless where you are. \r\n\r\nFounded in 2018, XT.COM now serves more than 6 million registered users, over 500,000+ monthly active users and 40+ million users in the ecosystem. Covering a rich variety of  trading categories together with a NFT aggregated marketplace,  our platform strives to cater to its large user base by providing a secure, trusted and intuitive trading experience.\r\n\r\nAs the world’s first social-infused digital assets trading platform, XT.COM also supports social networking platform based transactions to make our crypto services more accessible to users all over the world. Furthermore, to ensure optimal data integrity and security, we see user security as our top priority at XT.COM. ",
+        "url": "https://www.xt.com/",
+        "image": "https://assets.coingecko.com/markets/images/404/small/logo400x400.png?1575881839",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 14,
-        "trade_volume_24h_btc": 26430.92542231884,
-        "trade_volume_24h_btc_normalized": 12688.390517558928
+        "trust_score_rank": 15,
+        "trade_volume_24h_btc": 29503.32773933137,
+        "trade_volume_24h_btc_normalized": 29503.32773933137
     },
     {
         "id": "bitfinex",
@@ -318,9 +221,9 @@
         "image": "https://assets.coingecko.com/markets/images/4/small/BItfinex.png?1615895883",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 15,
-        "trade_volume_24h_btc": 8930.610187279166,
-        "trade_volume_24h_btc_normalized": 7091.262504845331
+        "trust_score_rank": 16,
+        "trade_volume_24h_btc": 8452.036063442154,
+        "trade_volume_24h_btc_normalized": 6548.995784597227
     },
     {
         "id": "bitmax",
@@ -332,9 +235,9 @@
         "image": "https://assets.coingecko.com/markets/images/277/small/%E5%8E%9F%E8%89%B2.png?1650557355",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 16,
-        "trade_volume_24h_btc": 5009.472682585686,
-        "trade_volume_24h_btc_normalized": 5009.472682585686
+        "trust_score_rank": 17,
+        "trade_volume_24h_btc": 5058.3134632788115,
+        "trade_volume_24h_btc_normalized": 4636.869842897397
     },
     {
         "id": "poloniex",
@@ -346,9 +249,9 @@
         "image": "https://assets.coingecko.com/markets/images/37/small/poloniex.png?1663310089",
         "has_trading_incentive": false,
         "trust_score": 9,
-        "trust_score_rank": 17,
-        "trade_volume_24h_btc": 2688.354084347433,
-        "trade_volume_24h_btc_normalized": 2688.354084347433
+        "trust_score_rank": 18,
+        "trade_volume_24h_btc": 2503.9766199260666,
+        "trade_volume_24h_btc_normalized": 2503.9766199260666
     },
     {
         "id": "lbank",
@@ -360,30 +263,53 @@
         "image": "https://assets.coingecko.com/markets/images/118/small/LBank_logo.png?1666234663",
         "has_trading_incentive": false,
         "trust_score": 8,
-        "trust_score_rank": 18,
-        "trade_volume_24h_btc": 63617.811875976855,
-        "trade_volume_24h_btc_normalized": 57530.47263263382
+        "trust_score_rank": 19,
+        "trade_volume_24h_btc": 65422.10897292416,
+        "trade_volume_24h_btc_normalized": 53131.13461806936
     },
     {
-        "id": "whitebit",
-        "Name": "WhiteBIT",
-        "year_established": 2018,
-        "country": "Lithuania",
-        "description": "",
-        "url": "https://whitebit.com",
-        "image": "https://assets.coingecko.com/markets/images/418/small/whitebit_final.png?1667923522",
-        "has_trading_incentive": false,
-        "trust_score": 8,
-        "trust_score_rank": 19,
-        "trade_volume_24h_btc": 53511.94045104122,
-        "trade_volume_24h_btc_normalized": 53511.94045104122
-    }
-],
-"trending coins":[
-    {
-
-
-    }
+   
+            "id": "emirex",
+            "Name": "Emirex",
+            "year_established": 2014,
+            "country": "United Arab Emirates",
+            "description": "",
+            "url": "https://www.emirex.com/",
+            "image": "https://assets.coingecko.com/markets/images/592/small/Emirex.png?1602067691",
+            "has_trading_incentive": false,
+            "trust_score": 8,
+            "trust_score_rank": 49,
+            "trade_volume_24h_btc": 42.928633140587785,
+            "trade_volume_24h_btc_normalized": 42.928633140587785
+        },
+        {
+            "id": "nice_hash",
+            "Name": "NiceHash",
+            "year_established": null,
+            "country": "Slovenia",
+            "description": "",
+            "url": "https://www.nicehash.com",
+            "image": "https://assets.coingecko.com/markets/images/546/small/logo_small_light.png?1637836622",
+            "has_trading_incentive": false,
+            "trust_score": 8,
+            "trust_score_rank": 50,
+            "trade_volume_24h_btc": 7.8397063097349715,
+            "trade_volume_24h_btc_normalized": 7.8397063097349715
+        },
+        {
+            "id": "bitmart",
+            "Name": "BitMart",
+            "year_established": 2017,
+            "country": "Cayman Islands",
+            "description": "",
+            "url": "https://www.bitmart.com/en",
+            "image": "https://assets.coingecko.com/markets/images/239/small/Bitmart.png?1628066397",
+            "has_trading_incentive": false,
+            "trust_score": 7,
+            "trust_score_rank": 51,
+            "trade_volume_24h_btc": 33938.421407808135,
+            "trade_volume_24h_btc_normalized": 33938.421407808135
+        }
 ]
-
 }
+    

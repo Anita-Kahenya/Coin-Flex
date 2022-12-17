@@ -1,19 +1,15 @@
-table {
-  
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
- 
-
+html {
+  scroll-behavior: smooth;
 }
-/* .column {
-  float: left;
-  width: 50%;
-} */
-
-/* Clear floats after the columns */
-
-
+.navbar-fixed{
+  display: left;
+  padding-top: 20px;
+}
+.exchanges {
+  display: flex;
+  padding-top: 56px;
+ }
+ .te
 td,
 th {
   border: 4px solid green;
