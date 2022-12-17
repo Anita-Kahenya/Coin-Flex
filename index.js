@@ -34,37 +34,33 @@ document.getElementById("exchanges").innerHTML = li;
  
 }
 
-// fetch('http://localhost:3000/exchanges' )
-// // Converting received data to JSON
-//  .then((response) => response.json ())
-//  .then((data) => {
+fetch("http://localhost:3000/trending")
+// Converting received data to JSON
+ .then((resource) => resource.json ())
+ .then((data) => {
 
-// // variable to store html headers
-//   let topCoin =`<tr>
-//   <th> COIN NAME  </th>
-//   <th>SYMBOL</th>
-//   <th>RANK</th>
-//   <th>url</th>
-// </tr>`
+// variable to store html headers
+  let topCoin =`<tr>
+  <th> COIN NAME  </th>
+  <th>SYMBOL</th>
+  
+</tr>`
 
-//  if (`&{coin.trust_score}` ===1){
 
-//   data.forEach((coin) => {
-//     topCoin+=`<tr>
-//       <td > ${coin.Name }        <ul>
-//       <li class="like">Like! <span class="like-glyph">&#x2661;</span></li>
-//     </ul></td>
-//       <td><img src= "${coin.image}"></td>
-//       <td>${coin.trust_score_rank}</td>
- 
-//     <td> <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
-//    </tr>`; 
-//   })
-// // Setting innerHTML as tab variable
-// document.getElementById("trending").innerHTML =topCoin;
-// }
 
-//  });
+  data.forEach((topC) => {
+    topCoin+=`<tr>
+      <td > ${topC.Name }        <ul>
+      <li class="like">Like! <span class="like-glyph">&#x2661;</span></li>
+    </ul></td>
+      <td><img src= "${topC.image}"></td>
+       </tr>`; 
+  })
+// Setting innerHTML as tab variable
+document.getElementById("trending").innerHTML =topCoin;
+
+
+ });
 
 //  function myFunction(x) {
 //   x.classList.toggle("fa-thumbs-down");
