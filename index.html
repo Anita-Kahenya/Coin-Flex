@@ -3,51 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>COIN-FLEX</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="icons" href="https://assets.coingecko.com/markets/images">
     <link rel="stylesheet" href="./style.css">
-   <link rel="shortcut icon" href="image.jpg">
+   <!-- <link rel="shortcut icon" href="image.jpg"> -->
 </head>
 
 <body>
   <!-- Side navigation bar -->
-  <div class="sidebar">
-    <a class="active" href="#home">Home</a>
-   <a  href="#exchanges">Exchanges </a>
-    <a  href="#trending">Trending</a>
-   <a  href="#clients">Clients</a>
-  </div>
-<p>A list of coins</p>
- <!-- Table to display fetched user data -->
-   <div class="container">
-    <table id="exchanges">
-     <!-- <tr>
-     <th> Name</th>
-      <th>Symbol</th>
-   <th>Coin Rank</th>
+   <div class="sidebar">
 
-       </tr> -->
-    <!-- <div class="likes-section">
-        <span class="likes"> 0 likes</span>
-        <button class="like-button">♡</button>
-          </div> -->
-          <!-- Use an element to toggle between a like/dislike icon -->
-                  
-    </table></div>
+    <a class="active" href="#home">Home</a>
+    <a  href="#trending">Trending Coins</a>
+    <a  href="#exchanges">Exchanges </a>
+
+   </div>
+
    <div class="container">
     <!-- Displaying a list of trending coins -->
-    <table id="trending"> 
-      <!-- <tr>
+    <p id="home">
+      <h3>LIST OF TRENDING</h3>
+   Uptrends are identified when prices reach higher highs and higher lows
+    </p>
+    
+     <table id="trending"> 
+      `<tr>
         <th> COIN NAME  </th>
         <th>SYMBOL</th>
-        <th>RANK</th>
         <th>Coin Rank</th>
+        <th>Country</th>
         <th>url</th>
-     </tr> -->
-    </table>
-   </div>   
+        <th>trade_volume_24h_btc</th>
+        <th>trade_volume_24h_btc_normalized</th>
+        </tr>`
+     </table>
+
+   </div> 
+
+ <!-- Table to display fetched user data -->
+   <div class="container">
+    <P>
+      <h3>A LIST OF ALL COINS</h3>
+   Clicking on the URL will redirect you to its home page.<br>
+  Click the like button to like a coin.<br>
+  Place cursor on a symbol to view more info about the coin.
+   </P>
+
+     <table id="exchanges">
+      `<tr>
+        <th>Coin Rank</th>
+        <th> COIN NAME  </th>
+        <th>SYMBOL</th>
+        <th>Year</th>
+        <th>Country</th>
+        <th>url</th>
+        <th>trade_volume_24h_btc</th>
+        </tr>`; 
+    </table></div>
   
+ 
     <script type="text/javascript" src="index.js"></script>
     
   </body>
