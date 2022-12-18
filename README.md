@@ -1,5 +1,5 @@
 # Coin-Flex
-A Mini Web Application for displaying a list of coins and a list of trending coins.
+A Front-End Mini Web Application for displaying a list of coins and a list of trending coins.
 # Author : Name :Date
 Wamburia Muchina :11/12/2022
 ## Screeenshots
@@ -26,9 +26,9 @@ https://user-images.githubusercontent.com/58048204/208321148-3acd7e07-3649-4340-
 # SetUp Instruction
 ## Requirements
 * Text editor :Visual Studio Code:(https://code.visualstudio.com/download)
-* HTML :(https://www.w3schools.com/HTML/)
-* CSS:(https://www.w3schools.com/CSS/)
-* JS:(https://www.w3schools.com/js)
+* [HTML] :(https://www.w3schools.com/HTML/)
+* [CSS] :(https://www.w3schools.com/CSS/)
+* [JS] :(https://www.w3schools.com/js)
 
 ## Getting Files
 - Fork the repo
@@ -40,8 +40,11 @@ https://user-images.githubusercontent.com/58048204/208321148-3acd7e07-3649-4340-
 - Add the changes and commit them (git commit -am "Improve App")
 - Push to the branch (git push origin improve-app)
 - Create a Pull request
-* Open the folder location on terminal and use the following command to run app:
-*****
+- Open the folder location on terminal and use the following command to run app:
+
+## Live Link
+- Coin-Flex :https://muchinawamburia.github.io/Coin-Flex/
+
 ## Contact Information
 * Email :lucymuchina20@gmail.com
 *****
