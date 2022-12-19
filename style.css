@@ -19,7 +19,7 @@ html {
 }
  
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: #000205;
   color: white;
 }
 
@@ -27,18 +27,29 @@ html {
   background-color: #555;
   color: white;
 }
+.sign-up{
+  padding-left: 200px;
+}
 .container {
   padding-top: 20px;
 
-  
- }
+   }
 
-td,
+ td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+ tr:hover {background-color: #ddd;}
+
 th {
-  border: 4px solid green;
-  padding: 0.5rem;
-  border-style:double;    
-  box-shadow: 12px,6px,12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
 }
 /* unvisited link */
 a:link {

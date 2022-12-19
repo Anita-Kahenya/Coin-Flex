@@ -1,6 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
 });
+// Get the modal
+var modal = document.getElementById('sign-up');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 function fetchData(){
 fetch('http://localhost:3000/exchanges' )
 // Converting received data to JSON
@@ -9,13 +18,13 @@ fetch('http://localhost:3000/exchanges' )
 
 // variable to store html headers
   let li = `<tr>
-  <th>Coin Rank</th>
-  <th> COIN NAME  </th>
-  <th>SYMBOL</th>
-  <th>Year</th>
-  <th>Country</th>
-  <th>url</th>
-  <th>trade_volume_24h_btc</th>
+  <th scope="col">Coin Rank</th>
+  <th scope="col"> COIN NAME  </th>
+  <th scope="col">SYMBOL</th>
+  <th scope="col">Year</th>
+  <th scope="col">Country</th>
+  <th scope="col">url</th>
+  <th scope="col">trade_volume_24h_btc</th>
   </tr>`; 
 
   json.forEach((coins) => {
@@ -45,21 +54,19 @@ fetch("http://localhost:3000/trending")
  // variable to store html headers
   let topCoin=
   `<tr>
-  <th> COIN NAME  </th>
-  <th>SYMBOL</th>
-  <th>Coin Rank</th>
-  <th>Country</th>
-  <th>url</th>
-  <th>trade_volume_24h_btc</th>
-  <th>trade_volume_24h_btc_normalized</th>
+  <th scope="col"> COIN NAME  </th>
+  <th scope="col">SYMBOL</th>
+  <th scope="col">Country</th>
+  <th scope="col">url</th>
+  <th scope="col">trade_volume_24h_btc</th>
+  <th scope="col">trade_volume_24h_btc_normalized</th>
   </tr>`
 
   data.forEach((myCoin) => {
     topCoin += 
    `<tr>
       <td > ${myCoin.Name } </td>
-      <td><img src= "${myCoin.image}"></td> 
-      <td>${myCoin.trust_score_rank}</td>
+      <td><img src= "${myCoin.image}"title="${myCoin.description}"></td> 
       <td>${myCoin.country}</td>
       <td><a href="${myCoin.url}" target="blank">${myCoin.url}</a></td>
       <td>${myCoin.trade_volume_24h_btc}</td>
