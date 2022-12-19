@@ -51,7 +51,7 @@ A Front-End Mini Web Application for displaying a list of coins and a list of tr
 ---
 ## Live Link
 
--  Coin-Flex :https://muchinawamburia.github.io/Coin-Flex/
+-  Coin-Flex :https://anita-kahenya.github.io/Coin-Flex/
 ---
 ## Contact Information
 
