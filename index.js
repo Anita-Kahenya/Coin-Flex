@@ -5,7 +5,7 @@ function fetchData(){
 fetch('http://localhost:3000/exchanges' )
 // Converting received data to JSON
  .then((response) => response.json ())
- .then((json) => {
+ .then((json) => { 
 
 // variable to store html headers
   let li = `<tr>
@@ -16,27 +16,44 @@ fetch('http://localhost:3000/exchanges' )
   <th scope="col">Country</th>
   <th scope="col">url</th>
   <th scope="col">trade_volume_24h_btc</th>
+
   </tr>`; 
 
   json.forEach((coins) => {
     li+=`<tr>
     <td>${coins.trust_score_rank}</td>
-    <td >   ${coins.Name }
-    <p><button type="button" class="btn">
-    <span class="glyphicon glyphicon-thumbs-up"></span> Like
-    </button></p></td>
-    <td><img src= "${coins.image}" title="${coins.description}"></td>
+    <td >   ${coins.Name }</td>
+    <td><img src= "${coins.image}" title="${coins.description}"></td> 
     <td>${coins.year_established}</td>
     <td>${coins.country}</td>
     <td><a href="${coins.url}" target="blank">${coins.url}</a></td>
     <td>${coins.trade_volume_24h_btc}</td>
+    <td><button type="button" id="btn" > Like</button></td>
     </tr>`; 
   })
-// Setting innerHTML as tab variable
-document.getElementById("exchanges").innerHTML = li;
- })
-}
 
+// Setting innerHTML as tab variab
+  document.getElementById("exchanges").innerHTML =li;
+
+  // adding an event listener to our button
+    // Selecting our button by id
+  const btn = document.getElementById('btn');
+
+
+ // adding an event listener to our button
+ // changing text after "click" event
+// Toggle button text on click
+btn.addEventListener('click', function handleClick() {
+  const initialText = 'Like';
+
+  if (btn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
+    btn.innerHTML =
+      '<span style="background-color: lime">Liked</span>';
+  } else {
+    btn.textContent = initialText;
+  }
+});
+});
 
 fetch("http://localhost:3000/trending")
 // Converting received data to JSON
@@ -51,6 +68,7 @@ fetch("http://localhost:3000/trending")
   <th scope="col">url</th>
   <th scope="col">trade_volume_24h_btc</th>
   <th scope="col">trade_volume_24h_btc_normalized</th>
+  <th>LIKE</th>
   </tr>`
 
   data.forEach((myCoin) => {
@@ -62,9 +80,30 @@ fetch("http://localhost:3000/trending")
       <td><a href="${myCoin.url}" target="blank">${myCoin.url}</a></td>
       <td>${myCoin.trade_volume_24h_btc}</td>
       <td>${myCoin.trade_volume_24h_btc_normalized}</td>
+      <td><button type="button" id="btn" >
+      <span class="glyphicon glyphicon-thumbs-up"></span> Like
+      </button></td>
       </tr>`; 
   })
 // Setting innerHTML as tab variable
 document.getElementById("trending").innerHTML =topCoin
+
+// Selecting our button by id
+ // adding an event listener to our button
+ // changing text after "click" event
+const btn = document.getElementById('btn');
+
+// Toggle button text on click
+btn.addEventListener('click', function handleClick() {
+  const initialText = 'Like';
+
+  if (btn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
+    btn.innerHTML =
+      '<span style="background-color: lime">Liked</span>';
+  } else {
+    btn.textContent = initialText;
+  }
+});
  })
 
+}
