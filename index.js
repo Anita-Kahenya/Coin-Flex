@@ -1,15 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
-});
-// Get the modal
-var modal = document.getElementById('sign-up');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+})
 function fetchData(){
 fetch('http://localhost:3000/exchanges' )
 // Converting received data to JSON
