@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="icons" href="https://assets.coingecko.com/markets/images">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js">
+    </script>
     <link rel="stylesheet" href="./style.css">
    <!-- <link rel="shortcut icon" href="image.jpg"> -->
 </head>
@@ -17,6 +20,7 @@
     <a class="active" href="#1">Home</a>
     <a  href="#trending">Trending Coins</a>
     <a  href="#exchanges">Coins List </a>
+    <a href ="#bar-chart">Trade Chart</a>
 
    </div>
    
@@ -69,6 +73,10 @@
 
     </table>
   </div>
+  <div style="width: 800; height : 600">
+    <canvas id="bar-chart">
+    </canvas>
+ </div>
   
   <script type="text/javascript" src="index.js"></script>
   <footer>

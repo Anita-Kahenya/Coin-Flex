@@ -105,5 +105,47 @@ btn.addEventListener('click', function handleClick() {
   }
 });
  })
-
+}
+// fetch the data from the server by calling the fetch function.
+//    feed fetched data  into the system.
+//  Utilize Chart JS library to form the chart.
+getData();
+async function getData() {
+   const response = await fetch("http://localhost:3000/trending");
+   const data = await response.json();
+   console.log(data);
+   length =data.length;
+   console.log(length);
+   labels = [];
+   values = [];
+   for (i = 0; i < length; i++) {
+      labels.push(data[i].trade_volume_24h_btc);
+      values.push(data[i].trade_volume_24h_btc_normalized);
+   }
+   new Chart(document.getElementById("bar-chart"), {
+      type: 'bar',
+      data: {
+         labels: labels,
+         datasets: [
+            {
+               label: "trade_volume",
+               backgroundColor: ["red",
+                  "lime",
+                  "blueviolet",
+                  "brown",
+                  "yellow",
+                  "black",
+                  "gold"],
+               data: values
+            }
+         ]
+      },
+      options: {
+         legend: { display: false },
+         title: {
+            display: true,
+            text: 'trade_volume_24h_'
+         }
+      }
+   });
 }
